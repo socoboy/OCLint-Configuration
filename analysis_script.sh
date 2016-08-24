@@ -26,8 +26,8 @@ echo "[*] xcodebuild with WORKSPACE=${WORKSPACE} SCHEME=${SCHEME}"
 #xctool -workspace ${WORKSPACE} -scheme ${SCHEME} -reporter json-compilation-database:compile_commands.json clean
 #xctool -workspace ${WORKSPACE} -scheme ${SCHEME} -reporter json-compilation-database:compile_commands.json build -dry-run
 
-xcodebuild -workspace hocvalam.xcworkspace -scheme hocvalam-dev clean | xcpretty
-xcodebuild -workspace hocvalam.xcworkspace -scheme hocvalam-dev -dry-run | xcpretty -r json-compilation-database --output compile_commands.json
+xcodebuild -workspace ${WORKSPACE} -scheme ${SCHEME} clean | xcpretty
+xcodebuild -workspace ${WORKSPACE} -scheme ${SCHEME} -dry-run | xcpretty -r json-compilation-database --output compile_commands.json
 
 BUILD_END=`date +%s`
 echo "Build time:$((BUILD_END-START))s"
