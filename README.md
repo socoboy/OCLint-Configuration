@@ -43,4 +43,4 @@ This is configuration for OCLint integrate with Xcode projects
 		- ShortVariableName
 		- ThrowExceptionFromFinallyBlock
 
-	* Rules references: https://docs.google.com/spreadsheets/d/1gRGWgNheQtx8B65bsXx4NZrkT-hjv0fhi0NGxYLKXTs/edit?usp=sharing
+	* Rules references at [here](https://docs.google.com/spreadsheets/d/1gRGWgNheQtx8B65bsXx4NZrkT-hjv0fhi0NGxYLKXTs/edit?usp=sharing)
