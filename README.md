@@ -15,3 +15,32 @@ This is configuration for OCLint integrate with Xcode projects
 	* Edit SCHEME and WORKSPACE inside analysis_script.sh inside your project folder
 	* chmod +x analysis_script.sh inside your project folder
 	* run ./analysis_script.sh
+
+##Current configs:
+	* Currently enable these rules:
+		- BitwiseOperatorInConditional
+		- BrokenNullCheck
+		- BrokenNilCheck
+		- BrokenOddnessCheck
+		- CollapsibleIfStatements
+		- ConstantConditionalOperator
+		- ConstantIfExpression
+		- DeadCode
+		- DoubleNegative
+		- ForLoopShouldBeWhileLoop
+		- GotoStatement
+		- JumbledIncrementer
+		- LongClass
+		- LongLine
+		- LongMethod
+		- LongVariableName
+		- MisplacedNullCheck
+		- MisplacedNilCheck
+		- MultipleUnaryOperator
+		- HighNcssMethod
+		- UseEarlyExitsAndContinue
+		- ReturnFromFinallyBlock
+		- ShortVariableName
+		- ThrowExceptionFromFinallyBlock
+
+	* Rules references: https://docs.google.com/spreadsheets/d/1gRGWgNheQtx8B65bsXx4NZrkT-hjv0fhi0NGxYLKXTs/edit?usp=sharing
