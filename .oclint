@@ -1,3 +1,5 @@
+rule-paths:
+  - .rules
 rules:
   - BrokenNilCheck
   - MisplacedNullCheck
@@ -16,6 +18,6 @@ rules:
   - ForLoopShouldBeWhileLoop
   - GotoStatement
   - MisplacedNilCheck
-max-priority-1: 20
-max-priority-2: 40
-max-priority-3: 60
+max-priority-1: 0
+max-priority-2: 0
+max-priority-3: 0
