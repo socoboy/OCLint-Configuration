@@ -45,7 +45,6 @@ This is configuration for OCLint integrate with Xcode projects
 		- LongClass
 		- LongLine
 		- LongMethod
-		- LongVariableName
 		- MisplacedNullCheck
 		- MisplacedNilCheck
 		- MultipleUnaryOperator
