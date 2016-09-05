@@ -8,11 +8,17 @@ This is configuration for OCLint integrate with Xcode projects
 
 
 ##How-to:
-	* Copy .oclint, analysis_script.sh and .rules file to your project folder:
-		from oclint-configuration directory, call command:
-			cp .oclint {your_project_folder}/.oclint
-			cp analysis_script.sh {your_project_folder}/analysis_script.sh
-			cp -R .rules {your_project_folder}/.rules
+	###Manual:
+		* Copy .oclint, analysis_script.sh and .rules file to your project folder:
+			from oclint-configuration directory, call command:
+				cp .oclint {your_project_folder}/.oclint
+				cp analysis_script.sh {your_project_folder}/analysis_script.sh
+				cp -R .rules {your_project_folder}/.rules
+	###Auto:
+		* run script:
+			from oclint-configuration directory, call command:
+				chmod +x install_script.sh
+				./install_script.sh -p={your_project_folder}
 
 	* Edit SCHEME and WORKSPACE inside analysis_script.sh inside your project folder
 	
