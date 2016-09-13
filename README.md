@@ -54,7 +54,6 @@ This is configuration for OCLint integrate with Xcode projects
 		- MisplacedNullCheck
 		- MisplacedNilCheck
 		- MultipleUnaryOperator
-		- HighNcssMethod
 		- UseEarlyExitsAndContinue
 		- ReturnFromFinallyBlock
 		- ShortVariableName
